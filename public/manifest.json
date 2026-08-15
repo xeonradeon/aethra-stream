@@ -1,0 +1,16 @@
+{
+  "name": "AETHRA STREAM",
+  "short_name": "AETHRA",
+  "description": "Platform streaming premium dengan koleksi donghua, komik, dan anime gratis",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#d4a847",
+  "orientation": "portrait",
+  "categories": ["entertainment", "video", "anime", "streaming"],
+  "lang": "id",
+  "dir": "ltr",
+  "icons": [
+    { "src": "/as.jpg", "sizes": "512x512", "type": "image/jpeg", "purpose": "any maskable" }
+  ]
+}

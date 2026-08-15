@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline - AETHRA STREAM</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0a0a;
+      color: #e8e0d4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container { text-align: center; max-width: 400px; }
+    .logo { margin-bottom: 30px; }
+    .logo svg { width: 80px; height: 80px; }
+    h1 { font-size: 24px; color: #f5f0e8; margin-bottom: 10px; }
+    p { color: #8a8278; line-height: 1.6; margin-bottom: 20px; }
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #d4a847;
+      color: #0a0a0a;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .btn:hover { background: #e8c05a; }
+    .status { margin-top: 20px; font-size: 12px; color: #5a554a; }
+    .status .dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #d4a847;
+      border-radius: 50%;
+      margin-right: 8px;
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.4; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="2" width="56" height="56" rx="12" fill="#141414" stroke="#d4a847" stroke-width="2"/>
+        <path d="M18 18L42 42M42 18L18 42" stroke="#d4a847" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="30" cy="30" r="10" stroke="#d4a847" stroke-width="2" fill="none"/>
+        <circle cx="30" cy="30" r="5" fill="#d4a847"/>
+      </svg>
+    </div>
+    <h1>🔌 Offline</h1>
+    <p>Koneksi internet terputus. Kembali online untuk akses penuh.</p>
+    <a href="/dashboard" class="btn">Coba Lagi</a>
+    <div class="status"><span class="dot"></span>Menunggu koneksi...</div>
+  </div>
+</body>
+</html>

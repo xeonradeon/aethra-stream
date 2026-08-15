@@ -1,0 +1,2061 @@
+================================================
+  AETHRA STREAM - API TEST RESULTS (LIVE)
+  Date: Sat Aug 15 18:30:19 WIB 2026
+  Base URL: https://aethra-stream.vercel.app
+================================================
+
+Checking server connection...
+✅ Server is running at https://aethra-stream.vercel.app
+
+===== ANIME TESTS =====
+
+--- Anime Home ---
+URL: https://aethra-stream.vercel.app/api/scraper?source=anime&type=home&page=1
+Status: ✅ SUCCESS
+Total items: 16
+Sample items:
+{
+  "title": "Hell Mode Yarikomizuki no Gamer Season 2",
+  "episode": "Episode"
+}
+{
+  "title": "Nige Jouzu no Wakagimi S2",
+  "episode": "Episode"
+}
+{
+  "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+  "episode": "Episode"
+}
+
+----------------------------------------
+
+--- Anime Terbaru ---
+URL: https://aethra-stream.vercel.app/api/scraper?source=anime&type=terbaru&page=1
+Status: ✅ SUCCESS
+Total items: 16
+Sample items:
+{
+  "title": "Honzuki no Gekokujou Season 4",
+  "episode": "Episode"
+}
+{
+  "title": "Hell Mode Yarikomizuki no Gamer Season 2",
+  "episode": "Episode"
+}
+{
+  "title": "Nige Jouzu no Wakagimi S2",
+  "episode": "Episode"
+}
+
+----------------------------------------
+
+--- Anime Detail (Tomb Raider King) ---
+URL: https://aethra-stream.vercel.app/api/scraper?source=anime&type=detail&slug=tomb-raider-king
+Status: ✅ SUCCESS
+Response:
+{
+  "creator": "rynaqrtz",
+  "page": "detail",
+  "url": "https://v2.samehadaku.how/anime/tomb-raider-king/",
+  "data": {
+    "title": "Tomb Raider King Sub Indo",
+    "poster": "https://v2.samehadaku.how/wp-content/uploads/2026/07/Tomb-Rider-King-v2.jpg",
+    "rating": "6.72 / 5,397",
+    "synopsis": "Menyamar di balik garis musuh, rencana terbaru Jooheon untuk menyiksa TKBM akan melibatkan upaya menjatuhkan mereka dari dalam! Mencuri relik-relik mereka dan memicu perselisihan internal hanyalah puncak gunung es dari apa yang akan dilakukannya untuk membuat kelompok itu membayar dosa-dosa mereka. Namun, dengan kemunculan Menara Kebanggaan, kemampuan Jooheon dalam memancing amarah akan benar-benar diuji saat ia harus mempertemukan para panglima perang paling menakutkan satu sama lain! Akankah Jooheon Suh keluar sebagai pemenang dalam pertempuran para penakluk terbesar dalam sejarah?",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "info": {
+      "japanese": "도굴왕",
+      "synonyms": "Toukutsu Ou, 盗掘王",
+      "english": "Tomb Raider King",
+      "status": "Ongoing",
+      "type": "TV",
+      "source": "Web manga",
+      "duration": "20 min.",
+      "total": "Episode 12",
+      "season": "Summer 2026",
+      "studio": "Studio Eek",
+      "released": "Jul 9, 2026 to ?"
+    },
+    "episodes": [
+      {
+        "episode": "11",
+        "title": "Dogulwang Episode 1",
+        "url": "https://v2.samehadaku.how/dogulwang-episode-1/",
+        "releaseDate": "9 July 2026"
+      },
+      {
+        "episode": "22",
+        "title": "Dogulwang Episode 2",
+        "url": "https://v2.samehadaku.how/dogulwang-episode-2/",
+        "releaseDate": "16 July 2026"
+      },
+      {
+        "episode": "33",
+        "title": "Dogulwang Episode 3",
+        "url": "https://v2.samehadaku.how/dogulwang-episode-3/",
+        "releaseDate": "23 July 2026"
+      },
+      {
+        "episode": "44",
+        "title": "Tomb Raider King (Dogulwang) Episode 4",
+        "url": "https://v2.samehadaku.how/tomb-raider-king-episode-4/",
+        "releaseDate": "30 July 2026"
+      },
+      {
+        "episode": "55",
+        "title": "Tomb Raider King (Dogulwang) Episode 5",
+        "url": "https://v2.samehadaku.how/tomb-raider-king-dogulwang-episode-5/",
+        "releaseDate": "6 August 2026"
+      },
+      {
+        "episode": "66",
+        "title": "Tomb Raider King (Dogulwang) Episode 6",
+        "url": "https://v2.samehadaku.how/tomb-raider-king-dogulwang-episode-6/",
+        "releaseDate": "13 August 2026"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "Sawaranaide Kotesashi-kun",
+        "url": "https://v2.samehadaku.how/anime/sawaranaide-kotesashi-kun/",
+        "poster": "https://v2.samehadaku.how/wp-content/uploads/2025/10/bx187331-ylRHyvJIVPeO.jpg",
+        "rating": "6.50",
+        "episode": "Eps 12"
+      },
+      {
+        "title": "K-On!",
+        "url": "https://v2.samehadaku.how/anime/k-on/",
+        "poster": "https://v2.samehadaku.how/wp-content/uploads/2024/08/76120.jpg",
+        "rating": "7.7",
+        "episode": "Eps"
+      },
+      {
+        "title": "Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta Season 2",
+        "url": "https://v2.samehadaku.how/anime/shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-season-2/",
+        "poster": "https://v2.samehadaku.how/wp-content/uploads/2024/01/Shin-no-Nakama-ja-Nai-to-Yuusha-no-Party-wo-Oidasareta-Season-2.jpg",
+        "rating": "6.78",
+        "episode": "Eps 12"
+      },
+      {
+        "title": "Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu",
+        "url": "https://v2.samehadaku.how/anime/kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu/",
+        "poster": "https://v2.samehadaku.how/wp-content/uploads/2022/07/123724.jpg",
+        "rating": "7.09",
+        "episode": "Eps 12"
+      }
+    ]
+  }
+}
+
+----------------------------------------
+
+
+===== ANIME TESTS COMPLETED =====
+
+===== DONGHUA TESTS =====
+
+--- Donghua Home ---
+URL: https://aethra-stream.vercel.app/api/scraper?source=donghua&type=home&page=1
+Status: ✅ SUCCESS
+Response data exists
+
+----------------------------------------
+
+--- Donghua Detail (Throne of Seal) ---
+URL: https://aethra-stream.vercel.app/api/scraper?source=donghua&type=detail&slug=throne-of-seal
+Status: ✅ SUCCESS
+Response:
+{
+  "creator": "rynaqrtz",
+  "page": "detail",
+  "url": "https://donghub.vip/throne-of-seal/",
+  "data": {
+    "title": "Throne of Seal",
+    "poster": "https://donghub.vip/wp-content/uploads/2025/02/throne-poster-rotated.jpg",
+    "synopsis": "Throne Of Seal Eng6000 years ago, the Demon God Emperor, Feng Xiu, and the 72 Demon God Pillars corrupted creatures into demon beasts, plunging humanity into a dark age. Human practitioners from the six great Temples rose to resist, establishing a fragile coexistence. Six legendary temples defended humanity and maintained balance. In this troubled world, Long Haochen joins the Knight Temple to become a knight and save his mother. Along his journey, he faces trials, discovers his inner strength, and learns the true meaning of love, friendship, and sacrifice. His dedication earns him respect. With talented peers, Long Haochen forms the “No. 1 Demon Hunting Group” to protect their world. As they venture through dangerous lands, they uncover secrets about the demons. Long Haochen’s quest becomes intertwined with the fate of an ancient relic, and his actions could determine the future of both humans and demons.Throne Of Seal Indo6000 tahun yang lalu, Kaisar Dewa Iblis, Feng Xiu dan 72 Pilar Dewa Iblis turun dari langit, semua makhluk terkontaminasi dengan nafas Pilar Dewa Iblis, dan langsung bermutasi menjadi makhluk iblis dan kemudian manusia memasuki zaman kegelapan. Setelah itu, praktisi manusia yang diatur dari enam Kuil berdiri untuk menghalangi kemajuan iblis, dan secara bertahap membentuk situasi d di mana manusia dan iblis hidup berdampingan. Protagonis Long Haochen bergabung dengan Kuil Ksatria, salah satu dari enam kuil besar, untuk menjadi seorang ksatria untuk menyelamatkan ibunya. Dalam petualangan pertumbuhan selangkah demi selangkah, petualangan, trik, dan cinta dan persahabatan yang ditakdirkan terus terungkap. Dia, Long Haochen merangkul semangat ksatria dan memenangkan pengakuan orang lain melalui kepribadian dan kerja kerasnya. Dia pertama kali membentuk “Kelompok Pemburu Iblis No. 1” dengan remaja berbakat lainnya di Enam Kuil untuk melawan iblis.",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "info": {
+      "status": "Completed",
+      "network": "Tencent Penguin Pictures",
+      "studio": "Shenman Entertainent",
+      "released": "Feb 12, 2025",
+      "country": "China",
+      "type": "ONA",
+      "released on": "Februari 12, 2025",
+      "updated on": "April 22, 2026"
+    },
+    "episodes": [
+      {
+        "episode": "146",
+        "title": "Throne Of Seal Episode 146 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-146-subtitle-indonesia/",
+        "releaseDate": "Februari 12, 2025"
+      },
+      {
+        "episode": "147",
+        "title": "Throne Of Seal Episode 147 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-147-subtitle-indonesia/",
+        "releaseDate": "Februari 19, 2025"
+      },
+      {
+        "episode": "148",
+        "title": "Throne Of Seal Episode 148 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-148-subtitle-indonesia/",
+        "releaseDate": "Februari 26, 2025"
+      },
+      {
+        "episode": "149",
+        "title": "Throne Of Seal Episode 149 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-149-subtitle-indonesia/",
+        "releaseDate": "Maret 7, 2025"
+      },
+      {
+        "episode": "150",
+        "title": "Throne Of Seal Episode 150 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-150-subtitle-indonesia/",
+        "releaseDate": "Maret 13, 2025"
+      },
+      {
+        "episode": "151",
+        "title": "Throne Of Seal Episode 151 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-151-subtitle-indonesia/",
+        "releaseDate": "Maret 20, 2025"
+      },
+      {
+        "episode": "152",
+        "title": "Throne Of Seal Episode 152 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-152-subtitle-indonesia/",
+        "releaseDate": "Maret 26, 2025"
+      },
+      {
+        "episode": "153",
+        "title": "Throne Of Seal Episode 153 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-153-subtitle-indonesia/",
+        "releaseDate": "April 2, 2025"
+      },
+      {
+        "episode": "154",
+        "title": "Throne Of Seal Episode 154 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-154-subtitle-indonesia/",
+        "releaseDate": "April 9, 2025"
+      },
+      {
+        "episode": "155",
+        "title": "Throne Of Seal Episode 155 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-155-subtitle-indonesia/",
+        "releaseDate": "April 16, 2025"
+      },
+      {
+        "episode": "156",
+        "title": "Throne Of Seal Episode 156 Subtitle",
+        "url": "https://donghub.vip/throne-of-seal-episode-156-subtitle-indonesia/",
+        "releaseDate": "April 23, 2025"
+      },
+      {
+        "episode": "157",
+        "title": "Throne Of Seal Episode 157 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-157-subtitle-indonesia/",
+        "releaseDate": "April 30, 2025"
+      },
+      {
+        "episode": "158",
+        "title": "Throne Of Seal Episode 158 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-158-subtitle-indonesia/",
+        "releaseDate": "Mei 7, 2025"
+      },
+      {
+        "episode": "159",
+        "title": "Throne Of Seal Episode 159 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-159-subtitle-indonesia/",
+        "releaseDate": "Mei 14, 2025"
+      },
+      {
+        "episode": "160",
+        "title": "Throne Of Seal Episode 160 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-160-subtitle-indonesia/",
+        "releaseDate": "Mei 21, 2025"
+      },
+      {
+        "episode": "161",
+        "title": "Throne Of Seal Episode 161 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-161-subtitle-indonesia/",
+        "releaseDate": "Mei 28, 2025"
+      },
+      {
+        "episode": "162",
+        "title": "Throne Of Seal Episode 162 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-162-subtitle-indonesia/",
+        "releaseDate": "Juni 4, 2025"
+      },
+      {
+        "episode": "163",
+        "title": "Throne Of Seal Episode 163 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-163-subtitle-indonesia/",
+        "releaseDate": "Juni 11, 2025"
+      },
+      {
+        "episode": "164",
+        "title": "Throne Of Seal Episode 164 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-164-subtitle-indonesia/",
+        "releaseDate": "Juni 18, 2025"
+      },
+      {
+        "episode": "165",
+        "title": "Throne Of Seal Episode 165 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-165-subtitle-indonesia/",
+        "releaseDate": "Juni 25, 2025"
+      },
+      {
+        "episode": "166",
+        "title": "Throne Of Seal Episode 166 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-166-subtitle-indonesia/",
+        "releaseDate": "Juli 2, 2025"
+      },
+      {
+        "episode": "167",
+        "title": "Throne Of Seal Episode 167 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-167-subtitle-indonesia/",
+        "releaseDate": "Juli 9, 2025"
+      },
+      {
+        "episode": "168",
+        "title": "Throne Of Seal Episode 168 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-168-subtitle-indonesia/",
+        "releaseDate": "Juli 16, 2025"
+      },
+      {
+        "episode": "169",
+        "title": "Throne Of Seal Episode 169 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-169-subtitle-indonesia/",
+        "releaseDate": "Juli 23, 2025"
+      },
+      {
+        "episode": "170",
+        "title": "Throne Of Seal Episode 170 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-170-subtitle-indonesia/",
+        "releaseDate": "Juli 30, 2025"
+      },
+      {
+        "episode": "171",
+        "title": "Throne Of Seal Episode 171 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-171-subtitle-indonesia/",
+        "releaseDate": "Agustus 6, 2025"
+      },
+      {
+        "episode": "172",
+        "title": "Throne Of Seal Episode 172 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-172-subtitle-indonesia/",
+        "releaseDate": "Agustus 13, 2025"
+      },
+      {
+        "episode": "173",
+        "title": "Throne Of Seal Episode 173 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-173-subtitle-indonesia/",
+        "releaseDate": "Agustus 20, 2025"
+      },
+      {
+        "episode": "174",
+        "title": "Throne Of Seal Episode 174 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-174-subtitle-indonesia/",
+        "releaseDate": "Agustus 27, 2025"
+      },
+      {
+        "episode": "175",
+        "title": "Throne Of Seal Episode 175 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-175-subtitle-indonesia/",
+        "releaseDate": "September 3, 2025"
+      },
+      {
+        "episode": "176",
+        "title": "Throne Of Seal Episode 176 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-176-subtitle-indonesia/",
+        "releaseDate": "September 10, 2025"
+      },
+      {
+        "episode": "177",
+        "title": "Throne Of Seal Episode 177 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-177-subtitle-indonesia/",
+        "releaseDate": "September 17, 2025"
+      },
+      {
+        "episode": "178",
+        "title": "Throne Of Seal Episode 178 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-178-subtitle-indonesia/",
+        "releaseDate": "September 24, 2025"
+      },
+      {
+        "episode": "179",
+        "title": "Throne Of Seal Episode 179 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-179-subtitle-indonesia/",
+        "releaseDate": "Oktober 1, 2025"
+      },
+      {
+        "episode": "180",
+        "title": "Throne Of Seal Episode 180 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-180-subtitle-indonesia/",
+        "releaseDate": "Oktober 8, 2025"
+      },
+      {
+        "episode": "181",
+        "title": "Throne Of Seal Episode 181 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-181-subtitle-indonesia/",
+        "releaseDate": "Oktober 15, 2025"
+      },
+      {
+        "episode": "182",
+        "title": "Throne Of Seal Episode 182 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-182-subtitle-indonesia/",
+        "releaseDate": "Oktober 22, 2025"
+      },
+      {
+        "episode": "183",
+        "title": "Throne Of Seal Episode 183 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-183-subtitle-indonesia/",
+        "releaseDate": "Oktober 29, 2025"
+      },
+      {
+        "episode": "184",
+        "title": "Throne Of Seal Episode 184 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-184-subtitle-indonesia/",
+        "releaseDate": "November 5, 2025"
+      },
+      {
+        "episode": "185",
+        "title": "Throne Of Seal Episode 185 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-185-subtitle-indonesia/",
+        "releaseDate": "November 12, 2025"
+      },
+      {
+        "episode": "186",
+        "title": "Throne Of Seal Episode 186 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-186-subtitle-indonesia/",
+        "releaseDate": "November 19, 2025"
+      },
+      {
+        "episode": "187",
+        "title": "Throne Of Seal Episode 187 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-187-subtitle-indonesia/",
+        "releaseDate": "November 26, 2025"
+      },
+      {
+        "episode": "188",
+        "title": "Throne Of Seal Episode 188 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-188-subtitle-indonesia/",
+        "releaseDate": "Desember 3, 2025"
+      },
+      {
+        "episode": "189",
+        "title": "Throne Of Seal Episode 189 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-189-subtitle-indonesia/",
+        "releaseDate": "Desember 10, 2025"
+      },
+      {
+        "episode": "190",
+        "title": "Throne Of Seal Episode 190 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-190-subtitle-indonesia/",
+        "releaseDate": "Desember 17, 2025"
+      },
+      {
+        "episode": "191",
+        "title": "Throne Of Seal Episode 191 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-191-subtitle-indonesia/",
+        "releaseDate": "Desember 24, 2025"
+      },
+      {
+        "episode": "192",
+        "title": "Throne Of Seal Episode 192 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-192-subtitle-indonesia/",
+        "releaseDate": "Desember 31, 2025"
+      },
+      {
+        "episode": "193",
+        "title": "Throne Of Seal Episode 193 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-193-subtitle-indonesia/",
+        "releaseDate": "Januari 7, 2026"
+      },
+      {
+        "episode": "194",
+        "title": "Throne Of Seal Episode 194 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-194-subtitle-indonesia/",
+        "releaseDate": "Januari 14, 2026"
+      },
+      {
+        "episode": "195",
+        "title": "Throne Of Seal Episode 195 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-195-subtitle-indonesia/",
+        "releaseDate": "Januari 21, 2026"
+      },
+      {
+        "episode": "196",
+        "title": "Throne Of Seal Episode 196 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-196-subtitle-indonesia/",
+        "releaseDate": "Januari 28, 2026"
+      },
+      {
+        "episode": "197",
+        "title": "Throne Of Seal Episode 197 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-197-subtitle-indonesia/",
+        "releaseDate": "Februari 4, 2026"
+      },
+      {
+        "episode": "198",
+        "title": "Throne Of Seal Episode 198 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-198-subtitle-indonesia/",
+        "releaseDate": "Februari 11, 2026"
+      },
+      {
+        "episode": "199",
+        "title": "Throne Of Seal Episode 199 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-199-subtitle-indonesia/",
+        "releaseDate": "Februari 18, 2026"
+      },
+      {
+        "episode": "200",
+        "title": "Throne Of Seal Episode 200 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-200-subtitle-indonesia/",
+        "releaseDate": "Februari 25, 2026"
+      },
+      {
+        "episode": "201",
+        "title": "Throne Of Seal Episode 201 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-201-subtitle-indonesia/",
+        "releaseDate": "Maret 4, 2026"
+      },
+      {
+        "episode": "202",
+        "title": "Throne Of Seal Episode 202 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-202-subtitle-indonesia/",
+        "releaseDate": "Maret 11, 2026"
+      },
+      {
+        "episode": "203",
+        "title": "Throne Of Seal Episode 203 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-203-subtitle-indonesia/",
+        "releaseDate": "Maret 18, 2026"
+      },
+      {
+        "episode": "204",
+        "title": "Throne Of Seal Episode 204 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-204-subtitle-indonesia/",
+        "releaseDate": "Maret 25, 2026"
+      },
+      {
+        "episode": "205",
+        "title": "Throne Of Seal Episode 205 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-205-subtitle-indonesia/",
+        "releaseDate": "April 1, 2026"
+      },
+      {
+        "episode": "206",
+        "title": "Throne Of Seal Episode 206 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-206-subtitle-indonesia/",
+        "releaseDate": "April 8, 2026"
+      },
+      {
+        "episode": "207",
+        "title": "Throne Of Seal Episode 207 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-207-subtitle-indonesia/",
+        "releaseDate": "April 15, 2026"
+      },
+      {
+        "episode": "208 Tamat",
+        "title": "Throne Of Seal Episode 208 Subtitle Indonesia",
+        "url": "https://donghub.vip/throne-of-seal-episode-208-subtitle-indonesia/",
+        "releaseDate": "April 22, 2026"
+      }
+    ],
+    "recommended": [
+      {
+        "title": "Above Myriads\t\t\t\tAbove Myriads",
+        "url": "https://donghub.vip/above-myriads/",
+        "poster": "https://donghub.vip/wp-content/uploads/2026/06/Above-Myriads.jpg",
+        "type": "ONA",
+        "status": "Completed",
+        "sub": "Sub"
+      },
+      {
+        "title": "Wind Driver in Tang Dynasty",
+        "url": "https://donghub.vip/wind-driver-in-tang-dynasty/",
+        "poster": "https://donghub.vip/wp-content/uploads/2025/09/Wind-Driver-in-Tang-Dynasty-768x1058.jpg",
+        "type": "ONA",
+        "status": "Completed",
+        "sub": "Sub"
+      },
+      {
+        "title": "Shrouding The Heavens",
+        "url": "https://donghub.vip/shrouding-the-heavens/",
+        "poster": "https://donghub.vip/wp-content/uploads/2025/02/Shrouding-the-Heavens.jpg",
+        "type": "ONA",
+        "status": "Ongoing",
+        "sub": "Sub"
+      },
+      {
+        "title": "Soul Land I: Sword Dao Chen Xin",
+        "url": "https://donghub.vip/soul-land-i-sword-dao-chen-xin/",
+        "poster": "https://donghub.vip/wp-content/uploads/2025/07/Soul-Land-Movie.png",
+        "type": "Movie",
+        "status": "Completed",
+        "sub": "Sub"
+      },
+      {
+        "title": "A Good Day to Ascend",
+        "url": "https://donghub.vip/a-good-day-to-ascend/",
+        "poster": "https://donghub.vip/wp-content/uploads/2026/07/A-Good-Day-to-Ascend.jpg",
+        "type": "ONA",
+        "status": "Ongoing",
+        "sub": "Sub"
+      }
+    ]
+  }
+}
+
+----------------------------------------
+
+
+===== DONGHUA TESTS COMPLETED =====
+
+===== MOVIE TESTS =====
+
+--- Movie Home ---
+URL: https://aethra-stream.vercel.app/api/scraper?source=movie&type=home&page=1
+Status: ❌ ERROR
+Response:
+{
+  "creator": "rynaqrtz",
+  "page": "home",
+  "url": "https://tv13.filem21.net/",
+  "pagination": {
+    "total": 716
+  },
+  "items": [
+    {
+      "title": "Camp Rock 3 (2026)",
+      "url": "https://sacmau.org/camp-rock-3-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/8wI9KByZtzBMWOzDFjxHPSOAuOH-170x255.jpg",
+      "rating": "6.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "95min",
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Comedy",
+        "Drama",
+        "Music",
+        "TV Movie",
+        "Canada",
+        "USA"
+      ]
+    },
+    {
+      "title": "Haplos Ni Milagros (2026)",
+      "url": "https://sacmau.org/haplos-ni-milagros-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/9GRZJrni89EW1gqdObr3eXUFXHA-170x255.jpg",
+      "rating": null,
+      "type": "Movie",
+      "episode": null,
+      "duration": null,
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Drama",
+        "Philippines"
+      ]
+    },
+    {
+      "title": "Daddy’s Girl (2026)",
+      "url": "https://sacmau.org/daddys-girl-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/tqjkmDgY1FpPwqotSYVJj1Z82cm-170x255.jpg",
+      "rating": null,
+      "type": "Movie",
+      "episode": null,
+      "duration": null,
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Documentary",
+        "Philippines"
+      ]
+    },
+    {
+      "title": "Wait For Me To Be Success later (2026)",
+      "url": "https://sacmau.org/wait-for-me-to-be-success-later-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/yV8vRteAKcXC49mRBNvciSR4GDR-170x255.jpg",
+      "rating": "7.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "110min",
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Comedy",
+        "Drama",
+        "Indonesia"
+      ]
+    },
+    {
+      "title": "The Invisible Guest (2026)",
+      "url": "https://sacmau.org/the-invisible-guest-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/z3ZQXbY05pfeDwbozfxdbj7yQjM-170x255.jpg",
+      "rating": null,
+      "type": "Movie",
+      "episode": null,
+      "duration": "121min",
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Drama",
+        "Mystery",
+        "Thriller",
+        "Indonesia"
+      ]
+    },
+    {
+      "title": "MYSTERY ARENA (2026)",
+      "url": "https://sacmau.org/mystery-arena-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/38tP3TvbsuT2klLHZyFGSv9VhdF-170x255.jpg",
+      "rating": null,
+      "type": "Movie",
+      "episode": null,
+      "duration": "116min",
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Mystery",
+        "Japan",
+        "USA"
+      ]
+    },
+    {
+      "title": "Lady Rider (2026)",
+      "url": "https://sacmau.org/lady-rider-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/v_206764864_m_601_en_260_360-170x255.webp",
+      "rating": null,
+      "type": "Movie",
+      "episode": null,
+      "duration": null,
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Drama",
+        "Family",
+        "China"
+      ]
+    },
+    {
+      "title": "This, That, and Everything in Between (2026)",
+      "url": "https://sacmau.org/this-that-and-everything-in-between-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/voT1x4FdnBieu1en3CeKhf7N0n8-170x255.jpg",
+      "rating": null,
+      "type": "Movie",
+      "episode": null,
+      "duration": "112min",
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Drama",
+        "Family",
+        "Philippines"
+      ]
+    },
+    {
+      "title": "Night Nurse (2026)",
+      "url": "https://sacmau.org/night-nurse-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/cvj1d5avMYRxK8FVpq07UqLrcbZ-170x255.jpg",
+      "rating": "6.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "95min",
+      "quality": "WEB-Rip",
+      "genres_countries": [
+        "Drama",
+        "Thriller",
+        "USA"
+      ]
+    },
+    {
+      "title": "Nando Between Two Worlds – A Sintonia Film (2026)",
+      "url": "https://sacmau.org/nando-between-two-worlds-a-sintonia-film-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/lP558W6RgDYaQvs9GKNGPUhVOLU-170x255.jpg",
+      "rating": "5.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "109min",
+      "quality": "WEB-Rip",
+      "genres_countries": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "Brazil"
+      ]
+    },
+    {
+      "title": "Dragon (2026)",
+      "url": "https://sacmau.org/dragon-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/v_205625976_m_601_en_260_360-170x255.webp",
+      "rating": null,
+      "type": "Movie",
+      "episode": null,
+      "duration": null,
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "China"
+      ]
+    },
+    {
+      "title": "Main Vaapas Aaunga (2026)",
+      "url": "https://sacmau.org/main-vaapas-aaunga-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/wHTNsZxvlfRAndc52hGlbdCUXKS-170x255.jpg",
+      "rating": "6.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "167min",
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Drama",
+        "Mystery",
+        "Romance",
+        "India"
+      ]
+    },
+    {
+      "title": "Young Washington (2026)",
+      "url": "https://sacmau.org/young-washington-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/6CdoTKnRQHJkjRGxTefFGkPQplB-170x255.jpg",
+      "rating": "7.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "121min",
+      "quality": "WEB-Rip",
+      "genres_countries": [
+        "Drama",
+        "History",
+        "War",
+        "Canada",
+        "Ireland",
+        "USA"
+      ]
+    },
+    {
+      "title": "The Invite (2026)",
+      "url": "https://sacmau.org/the-invite-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/b7Dr8Chzse8VagexAporUu2RtLx-170x255.jpg",
+      "rating": "7.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "107min",
+      "quality": "WEB-Rip",
+      "genres_countries": [
+        "Comedy",
+        "Drama",
+        "Romance",
+        "USA"
+      ]
+    },
+    {
+      "title": "Minions & Monsters (2026)",
+      "url": "https://sacmau.org/minions-monsters-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/nz7i42yhLIJ4ve9JKgM6NthoLHO-170x255.jpg",
+      "rating": "6.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "90min",
+      "quality": "WEB-Rip",
+      "genres_countries": [
+        "Adventure",
+        "Animation",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "USA"
+      ]
+    },
+    {
+      "title": "To Love & Cherish (2026)",
+      "url": "https://sacmau.org/tv/to-love-cherish-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/to-love-and-cherish-2026-scaled-1-170x255.webp",
+      "rating": "9.0",
+      "type": "TV Show",
+      "episode": "2",
+      "duration": null,
+      "quality": null,
+      "genres_countries": [
+        "Drama",
+        "Serial TV",
+        "Thailand"
+      ]
+    },
+    {
+      "title": "Jackass: Best and Last (2026)",
+      "url": "https://sacmau.org/jackass-best-and-last-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/tfgccePxnswMqhmtxafliLlcCVR-170x255.jpg",
+      "rating": "6.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "92min",
+      "quality": "WEB-Rip",
+      "genres_countries": [
+        "Action",
+        "Comedy",
+        "Documentary",
+        "USA"
+      ]
+    },
+    {
+      "title": "The Eyes (2026)",
+      "url": "https://sacmau.org/the-eyes-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/yH2sGLdQejqf3Zk8KDuoDa5gr6E-170x255.jpg",
+      "rating": "6.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": "106min",
+      "quality": "WEB-DL",
+      "genres_countries": [
+        "Horror",
+        "Thriller",
+        "Korea"
+      ]
+    },
+    {
+      "title": "Sibling Team 3 (2026)",
+      "url": "https://sacmau.org/sibling-team-3-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/5VwObi6neCFYPmxDYtnb4KmDGS3-170x255.jpg",
+      "rating": "8.0",
+      "type": "Movie",
+      "episode": null,
+      "duration": null,
+      "quality": "WEB-Rip",
+      "genres_countries": [
+        "Adventure",
+        "Family",
+        "Turkey"
+      ]
+    },
+    {
+      "title": "Alley Cats (2026)",
+      "url": "https://sacmau.org/tv/alley-cats-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/alley-cats-2026-scaled-1-170x255.webp",
+      "rating": "7.0",
+      "type": "TV Show",
+      "episode": "6",
+      "duration": null,
+      "quality": null,
+      "genres_countries": [
+        "Animation",
+        "Comedy",
+        "Serial TV",
+        "United Kingdom"
+      ]
+    },
+    {
+      "title": "Our Sticky Love (2026)",
+      "url": "https://sacmau.org/tv/our-sticky-love-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/our-sticky-love-2026-170x255.webp",
+      "rating": "7.0",
+      "type": "TV Show",
+      "episode": "12",
+      "duration": null,
+      "quality": null,
+      "genres_countries": [
+        "Comedy",
+        "Drama",
+        "Serial TV",
+        "Korea"
+      ]
+    },
+    {
+      "title": "Salcedo, Leather, and Boogaloo (2026)",
+      "url": "https://sacmau.org/tv/salcedo-leather-and-boogaloo-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/salcedo-leather-and-boogaloo-2026-170x255.webp",
+      "rating": "7.0",
+      "type": "TV Show",
+      "episode": "12",
+      "duration": "6min",
+      "quality": null,
+      "genres_countries": [
+        "Comedy",
+        "Drama",
+        "Serial TV",
+        "Colombia"
+      ]
+    },
+    {
+      "title": "Sterling Point (2026)",
+      "url": "https://sacmau.org/tv/sterling-point-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/sterling-point-2026-170x255.webp",
+      "rating": "7.8",
+      "type": "TV Show",
+      "episode": "8",
+      "duration": null,
+      "quality": null,
+      "genres_countries": [
+        "Drama",
+        "Mystery",
+        "Serial TV",
+        "USA"
+      ]
+    },
+    {
+      "title": "My Life with the Walter Boys Season 3 (2026)",
+      "url": "https://sacmau.org/tv/my-life-with-the-walter-boys-season-3-2026/",
+      "poster": "https://sacmau.org/wp-content/uploads/2026/08/my-life-with-the-walter-boys-season-3-2026-170x255.webp",
+      "rating": "7.8",
+      "type": "TV Show",
+      "episode": "10",
+      "duration": null,
+      "quality": null,
+      "genres_countries": [
+        "Drama",
+        "Serial TV",
+        "USA"
+      ]
+    }
+  ]
+}
+
+----------------------------------------
+
+--- Movie Detail (Avengers Endgame) ---
+URL: https://aethra-stream.vercel.app/api/scraper?source=movie&type=detail&slug=avengers-endgame
+Status: ✅ SUCCESS
+Response:
+{
+  "creator": "rynaqrtz",
+  "page": "detail",
+  "url": "https://tv13.filem21.net/avengers-endgame",
+  "title": "Bleach: Sennen Kessen-hen Final Season (…\nThe East Palace (2026)\nSpider-Noir (2026)\nTeach You a Lesson (2026)\nAvatar: The Last Airbender Season 2 (202…\nNotes from the Last Row (2026)\nAgent Kim Reactivated (2026)\nHouse of the Dragon Season 3 (2026)\nBoyfriend on Demand (2026)\nOne Piece LIVE ACTION Season 2 (2026)\nGirl from Nowhere: The Reset (2026)\nUndercover Miss Hong (2025)\nFlex X Cop Season 2 (2026)\nAlius (2026)\nFightland (2026)\nA Bona Fide Killer (2026)\nThe Affair Was Just The Beginning (2026)\nThe Bombing of Pan Am 103 (2026)\nFurious (2026)\nBleach: Sennen Kessen-hen Final Season (…\nElite Force (2026)\nThe Crow Girl (2025)\nThe East Palace (2026)\nLucky (2026)\nMinions & Monsters (2026)\nAlley Cats (2026)\nKill Lupercal (2025)\nTHE RIBBON HERO (2026)\nStar Wars Visions Presents: The Ninth Je…\nAnother World (2025)\nThe Pout-Pout Fish (2026)\nChickenhare and the Secret of the Ground…\nLi Xiongmao (2026)\nPresident Curtis (2026)\nFutsutsuka na Akujo dewa Gozaimasu ga: S…\nHanaori-san wa Tensei shite mo Kenka ga …\nSrigala Betina – Kelas Bintang (2022)\nPSK Belia Part 1 – Kelas Bintang (2022)\nPSK – Kelas Bintang (2023)\nOpen VCS – Kelas Bintang (2023)\nSetan Sange – Part 1 – Kelas Bintang (20…\nSalome – Kelas Bintang (2023)\nPelakor – Kelas Bintang (2023)\nColmek – Kelas Bintang (2022)\nBokep: Part 1 – Kelas Bintang (2023)\nMimi Cucu – Kelas Bintang (2023)\nMimi Cucu Part 2 – Kelas Bintang (2023)\nPepaya Gantung – Kelas Bintang (2023)\nSem Break (2025)\nLigaya (2025)\nRapsa (2025)\nSabik (2025)\nTampipi (2025)\nOnline Selling (2025)\nSponsor (2025)\nHiram na Sandali (2025)\nHalimuyak (2025)\nLas Ilusyunadas (2025)\nClimax (2024)\nTeacher’s Pet (2024)\nMESU-138 – Muncrat Berkali-kali\nJURA-184 – Walaupun Sudah Tua, Goy…\nABF-325 – Gadis Mungil Natural\nABF-324 – Dikasih Jatah Sebelum Re…\nABF-323 – Crot Karna Ke Imutan Goy…\nSDMM-224 Ngewe di Bus Ajaib\nREBD-710 Model Pemersatu Bangsa\nYSN-595 Makin Gede Makin Asik\nYSN-592 Bulu Kesukaanku\nFNS-063 – Perawat Yang Sangat Perh…\nDEAB-001-MR – Dua Seksi Tobrut\nRNA-007 Meniduri Istri Teman Sendiri &#8…\nScooby Doo: A XXX Parody (2011)\nVagitarians 3: Oil Edition\nUNCUT 17\nUNCUT 15\nUNCUT 14\nUNCUT 13\nThe Le Wood Anal Hazing Crew 8\nSultry Asian Beauties\nSomeone’s Pride And Joy\nSlut Me Up!\nRocco’s Sex Clinic- Treatment 2\nRocco’s 4 Cams POV\nCamp Rock 3 (2026)\nHaplos Ni Milagros (2026)\nDaddy’s Girl (2026)\nWait For Me To Be Success later (2026)\nThe Invisible Guest (2026)\nMYSTERY ARENA (2026)\nLady Rider (2026)\nThis, That, and Everything in Between (2026)\nNight Nurse (2026)\nNando Between Two Worlds – A Sintonia Film (2026)\nDragon (2026)\nMain Vaapas Aaunga (2026)\nYoung Washington (2026)\nThe Invite (2026)\nMinions & Monsters (2026)\nTo Love & Cherish (2026)\nJackass: Best and Last (2026)\nThe Eyes (2026)\nSibling Team 3 (2026)\nAlley Cats (2026)\nOur Sticky Love (2026)\nSalcedo, Leather, and Boogaloo (2026)\nSterling Point (2026)\nMy Life with the Walter Boys Season 3 (2026)",
+  "poster": "",
+  "trailer": "https://www.youtube.com/watch?v=IJONbpfIlUg",
+  "rating": "",
+  "rating_count": "",
+  "synopsis": "",
+  "tags": [],
+  "episodes": [],
+  "downloads": [],
+  "streams": [],
+  "recommended": []
+}
+
+----------------------------------------
+
+
+===== MOVIE TESTS COMPLETED =====
+
+===== KOMIK TESTS =====
+
+--- Komik Home ---
+URL: https://aethra-stream.vercel.app/api/scraper?source=komik&type=home
+Status: ✅ SUCCESS
+Response data exists
+
+----------------------------------------
+
+--- Komik Detail (Solo Leveling) ---
+URL: https://aethra-stream.vercel.app/api/scraper?source=komik&type=detail&slug=solo-leveling
+Status: ✅ SUCCESS
+Response:
+{
+  "creator": "rynaqrtz",
+  "page": "detail",
+  "url": "https://komikindo.ch/komik/solo-leveling",
+  "data": {
+    "title": "Komik\n              Solo Leveling",
+    "poster": "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Solo-Leveling-236x319.jpeg",
+    "rating": "9.33",
+    "synopsis": "Manhwa                    Solo Leveling yang dibuat oleh komikus bernama\n                    Chugong 추공 ini bercerita tentang\n                    10 tahun yang lalu, setelah \"Gerbang\" yang menghubungkan dunia nyata dengan dunia monster terbuka, beberapa orang biasa, setiap hari menerima kekuatan untuk berburu monster di dalam Gerbang. Mereka dikenal sebagai \"Pemburu\". Namun, tidak semua Pemburu kuat. Nama saya Sung Jin-Woo, seorang Pemburu peringkat-E. Saya seseorang yang harus mempertaruhkan nyawanya di ruang bawah tanah paling rendah, \"Terlemah di Dunia\". Tidak memiliki keterampilan apa pun untuk ditampilkan, saya hampir tidak mendapatkan uang yang dibutuhkan dengan bertarung di ruang bawah tanah berlevel rendah… setidaknya sampai saya menemukan ruang bawah tanah tersembunyi dengan kesulitan tersulit dalam ruang bawah tanah peringkat-D! Pada akhirnya, saat aku menerima kematian, tiba-tiba aku menerima kekuatan aneh, log pencarian yang hanya bisa kulihat, rahasia untuk naik level yang hanya aku yang tahu! Jika saya berlatih sesuai dengan pencarian saya dan monster yang diburu, level saya akan naik. Berubah dari Hunter terlemah menjadi Hunter S-rank terkuat!",
+    "info": {
+      "judul alternatif": "Aku Level Up Sendiri, Ben yanlız gelişirim, Grinding Sendiri, I Alone Level Up, I Alone Level-Up, I Level Up Alone, Na Honjaman Level Up, Na Honjaman Rebereop, Only I Level Up, Singur Îmi Ridic Nivelul, SL, Solo Levelling, Tek Başına Seviye Atlamak, Поднятие уровня в одиночку, الإرتقاء بالمستوى منفردًا, سولو لولینگ, سولو ليفيلنغ, من به تنهایی لول‌آپ می‌کنم, 俺だけレベルアップな件, 我独自升级, 나 혼자만 레벨업",
+      "status": "Tamat",
+      "pengarang": "Chugong 추공",
+      "ilustrator": "Jang Sung-Rak (REDICE Studio)",
+      "grafis": "Shounen",
+      "tema": "Magic, Monsters",
+      "jenis komik": "Manhwa",
+      "official": "RawOfficial English",
+      "informasi": "MangaUpdatesNovelUpdatesAnime-PlanetAniListKitsuMyAnimeList"
+    },
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "chapters": [
+      {
+        "chapter": "179 End",
+        "url": "https://komikindo.ch/solo-leveling-chapter-179-end/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "178",
+        "url": "https://komikindo.ch/solo-leveling-chapter-178/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "177",
+        "url": "https://komikindo.ch/solo-leveling-chapter-177/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "176",
+        "url": "https://komikindo.ch/solo-leveling-chapter-176/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "175",
+        "url": "https://komikindo.ch/solo-leveling-chapter-175/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "174",
+        "url": "https://komikindo.ch/solo-leveling-chapter-174/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "173",
+        "url": "https://komikindo.ch/solo-leveling-chapter-173/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "172",
+        "url": "https://komikindo.ch/solo-leveling-chapter-172/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "171",
+        "url": "https://komikindo.ch/solo-leveling-chapter-171/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "170",
+        "url": "https://komikindo.ch/solo-leveling-chapter-170/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "169",
+        "url": "https://komikindo.ch/solo-leveling-chapter-169/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "168",
+        "url": "https://komikindo.ch/solo-leveling-chapter-168/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "167",
+        "url": "https://komikindo.ch/solo-leveling-chapter-167/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "166",
+        "url": "https://komikindo.ch/solo-leveling-chapter-166/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "165",
+        "url": "https://komikindo.ch/solo-leveling-chapter-165/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "164",
+        "url": "https://komikindo.ch/solo-leveling-chapter-164/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "163",
+        "url": "https://komikindo.ch/solo-leveling-chapter-163/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "162",
+        "url": "https://komikindo.ch/solo-leveling-chapter-162/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "161",
+        "url": "https://komikindo.ch/solo-leveling-chapter-161/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "160",
+        "url": "https://komikindo.ch/solo-leveling-chapter-160/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "159",
+        "url": "https://komikindo.ch/solo-leveling-chapter-159/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "158",
+        "url": "https://komikindo.ch/solo-leveling-chapter-158/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "157",
+        "url": "https://komikindo.ch/solo-leveling-chapter-157/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "156",
+        "url": "https://komikindo.ch/solo-leveling-chapter-156/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "155",
+        "url": "https://komikindo.ch/solo-leveling-chapter-155/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "154",
+        "url": "https://komikindo.ch/solo-leveling-chapter-154/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "153",
+        "url": "https://komikindo.ch/solo-leveling-chapter-153/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "152",
+        "url": "https://komikindo.ch/solo-leveling-chapter-152/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "151",
+        "url": "https://komikindo.ch/solo-leveling-chapter-151/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "150",
+        "url": "https://komikindo.ch/solo-leveling-chapter-150/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "149",
+        "url": "https://komikindo.ch/solo-leveling-chapter-149/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "148",
+        "url": "https://komikindo.ch/solo-leveling-chapter-148/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "147",
+        "url": "https://komikindo.ch/solo-leveling-chapter-147/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "146",
+        "url": "https://komikindo.ch/solo-leveling-chapter-146/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "145",
+        "url": "https://komikindo.ch/solo-leveling-chapter-145/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "144",
+        "url": "https://komikindo.ch/solo-leveling-chapter-144/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "143",
+        "url": "https://komikindo.ch/solo-leveling-chapter-143/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "142",
+        "url": "https://komikindo.ch/solo-leveling-chapter-142/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "141",
+        "url": "https://komikindo.ch/solo-leveling-chapter-141/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "140",
+        "url": "https://komikindo.ch/solo-leveling-chapter-140/",
+        "date": "5 tahun yang lalu"
+      },
+      {
+        "chapter": "139",
+        "url": "https://komikindo.ch/solo-leveling-chapter-139/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "138",
+        "url": "https://komikindo.ch/solo-leveling-chapter-138/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "137",
+        "url": "https://komikindo.ch/solo-leveling-chapter-137/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "136",
+        "url": "https://komikindo.ch/solo-leveling-chapter-136/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "135",
+        "url": "https://komikindo.ch/solo-leveling-chapter-135/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "134",
+        "url": "https://komikindo.ch/solo-leveling-chapter-134/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "133",
+        "url": "https://komikindo.ch/solo-leveling-chapter-133/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "132",
+        "url": "https://komikindo.ch/solo-leveling-chapter-132/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "131",
+        "url": "https://komikindo.ch/solo-leveling-chapter-131/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "130",
+        "url": "https://komikindo.ch/solo-leveling-chapter-130/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "129",
+        "url": "https://komikindo.ch/solo-leveling-chapter-129/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "128",
+        "url": "https://komikindo.ch/solo-leveling-chapter-128/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "127",
+        "url": "https://komikindo.ch/solo-leveling-chapter-127/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "126",
+        "url": "https://komikindo.ch/solo-leveling-chapter-126/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "125",
+        "url": "https://komikindo.ch/solo-leveling-chapter-125/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "124",
+        "url": "https://komikindo.ch/solo-leveling-chapter-124/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "123",
+        "url": "https://komikindo.ch/solo-leveling-chapter-123/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "122",
+        "url": "https://komikindo.ch/solo-leveling-chapter-122/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "121",
+        "url": "https://komikindo.ch/solo-leveling-chapter-121/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "120",
+        "url": "https://komikindo.ch/solo-leveling-chapter-120/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "119",
+        "url": "https://komikindo.ch/solo-leveling-chapter-119/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "118",
+        "url": "https://komikindo.ch/solo-leveling-chapter-118/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "117",
+        "url": "https://komikindo.ch/solo-leveling-chapter-117/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "116",
+        "url": "https://komikindo.ch/solo-leveling-chapter-116/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "115",
+        "url": "https://komikindo.ch/solo-leveling-chapter-115/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "114",
+        "url": "https://komikindo.ch/solo-leveling-chapter-114/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "113",
+        "url": "https://komikindo.ch/solo-leveling-chapter-113/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "112",
+        "url": "https://komikindo.ch/solo-leveling-chapter-112/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "111",
+        "url": "https://komikindo.ch/solo-leveling-chapter-111/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "110.5",
+        "url": "https://komikindo.ch/solo-leveling-chapter-110-5/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "110",
+        "url": "https://komikindo.ch/solo-leveling-chapter-110/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "109",
+        "url": "https://komikindo.ch/solo-leveling-chapter-109/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "108",
+        "url": "https://komikindo.ch/solo-leveling-chapter-108/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "107",
+        "url": "https://komikindo.ch/solo-leveling-chapter-107/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "106",
+        "url": "https://komikindo.ch/solo-leveling-chapter-106/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "105",
+        "url": "https://komikindo.ch/solo-leveling-chapter-105/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "104",
+        "url": "https://komikindo.ch/solo-leveling-chapter-104/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "103",
+        "url": "https://komikindo.ch/solo-leveling-chapter-103/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "102",
+        "url": "https://komikindo.ch/solo-leveling-chapter-102/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "101",
+        "url": "https://komikindo.ch/solo-leveling-chapter-101/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "100",
+        "url": "https://komikindo.ch/solo-leveling-chapter-100/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "99",
+        "url": "https://komikindo.ch/solo-leveling-chapter-99/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "98",
+        "url": "https://komikindo.ch/solo-leveling-chapter-98/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "97",
+        "url": "https://komikindo.ch/solo-leveling-chapter-97/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "96",
+        "url": "https://komikindo.ch/solo-leveling-chapter-96/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "95",
+        "url": "https://komikindo.ch/solo-leveling-chapter-95/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "94",
+        "url": "https://komikindo.ch/solo-leveling-chapter-94/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "93",
+        "url": "https://komikindo.ch/solo-leveling-chapter-93/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "92",
+        "url": "https://komikindo.ch/solo-leveling-chapter-92/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "91",
+        "url": "https://komikindo.ch/solo-leveling-chapter-91/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "90",
+        "url": "https://komikindo.ch/solo-leveling-chapter-90/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "89",
+        "url": "https://komikindo.ch/solo-leveling-chapter-89/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "88",
+        "url": "https://komikindo.ch/solo-leveling-chapter-88/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "87",
+        "url": "https://komikindo.ch/solo-leveling-chapter-87/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "86",
+        "url": "https://komikindo.ch/solo-leveling-chapter-86/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "85.5",
+        "url": "https://komikindo.ch/solo-leveling-chapter-85-5/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "85",
+        "url": "https://komikindo.ch/solo-leveling-chapter-85/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "84",
+        "url": "https://komikindo.ch/solo-leveling-chapter-84/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "83",
+        "url": "https://komikindo.ch/solo-leveling-chapter-83/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "82",
+        "url": "https://komikindo.ch/solo-leveling-chapter-82/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "81",
+        "url": "https://komikindo.ch/solo-leveling-chapter-81/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "80",
+        "url": "https://komikindo.ch/solo-leveling-chapter-80/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "79",
+        "url": "https://komikindo.ch/solo-leveling-chapter-79/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "78",
+        "url": "https://komikindo.ch/solo-leveling-chapter-78/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "77",
+        "url": "https://komikindo.ch/solo-leveling-chapter-77/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "76",
+        "url": "https://komikindo.ch/solo-leveling-chapter-76/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "75",
+        "url": "https://komikindo.ch/solo-leveling-chapter-75/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "74",
+        "url": "https://komikindo.ch/solo-leveling-chapter-74/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "73",
+        "url": "https://komikindo.ch/solo-leveling-chapter-73/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "72",
+        "url": "https://komikindo.ch/solo-leveling-chapter-72/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "71",
+        "url": "https://komikindo.ch/solo-leveling-chapter-71/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "70",
+        "url": "https://komikindo.ch/solo-leveling-chapter-70/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "69",
+        "url": "https://komikindo.ch/solo-leveling-chapter-69/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "68",
+        "url": "https://komikindo.ch/solo-leveling-chapter-68/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "67",
+        "url": "https://komikindo.ch/solo-leveling-chapter-67/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "66",
+        "url": "https://komikindo.ch/solo-leveling-chapter-66/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "65",
+        "url": "https://komikindo.ch/solo-leveling-chapter-65/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "64",
+        "url": "https://komikindo.ch/solo-leveling-chapter-64/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "63",
+        "url": "https://komikindo.ch/solo-leveling-chapter-63/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "62",
+        "url": "https://komikindo.ch/solo-leveling-chapter-62/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "61",
+        "url": "https://komikindo.ch/solo-leveling-chapter-61/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "60",
+        "url": "https://komikindo.ch/solo-leveling-chapter-60/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "59",
+        "url": "https://komikindo.ch/solo-leveling-chapter-59/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "58",
+        "url": "https://komikindo.ch/solo-leveling-chapter-58/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "57",
+        "url": "https://komikindo.ch/solo-leveling-chapter-57/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "56",
+        "url": "https://komikindo.ch/solo-leveling-chapter-56/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "55",
+        "url": "https://komikindo.ch/solo-leveling-chapter-55/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "54",
+        "url": "https://komikindo.ch/solo-leveling-chapter-54/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "53",
+        "url": "https://komikindo.ch/solo-leveling-chapter-53/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "52.1",
+        "url": "https://komikindo.ch/solo-leveling-chapter-52-1/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "52",
+        "url": "https://komikindo.ch/solo-leveling-chapter-52/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "51",
+        "url": "https://komikindo.ch/solo-leveling-chapter-51/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "50",
+        "url": "https://komikindo.ch/solo-leveling-chapter-50/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "49",
+        "url": "https://komikindo.ch/solo-leveling-chapter-49/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "48",
+        "url": "https://komikindo.ch/solo-leveling-chapter-48/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "47",
+        "url": "https://komikindo.ch/solo-leveling-chapter-47/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "46",
+        "url": "https://komikindo.ch/solo-leveling-chapter-46/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "45",
+        "url": "https://komikindo.ch/solo-leveling-chapter-45/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "44",
+        "url": "https://komikindo.ch/solo-leveling-chapter-44/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "43",
+        "url": "https://komikindo.ch/solo-leveling-chapter-43/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "42",
+        "url": "https://komikindo.ch/solo-leveling-chapter-42/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "41",
+        "url": "https://komikindo.ch/solo-leveling-chapter-41/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "40",
+        "url": "https://komikindo.ch/solo-leveling-chapter-40/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "39",
+        "url": "https://komikindo.ch/solo-leveling-chapter-39/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "38",
+        "url": "https://komikindo.ch/solo-leveling-chapter-38/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "37",
+        "url": "https://komikindo.ch/solo-leveling-chapter-37/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "36",
+        "url": "https://komikindo.ch/solo-leveling-chapter-36/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "35",
+        "url": "https://komikindo.ch/solo-leveling-chapter-35/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "34",
+        "url": "https://komikindo.ch/solo-leveling-chapter-34/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "33",
+        "url": "https://komikindo.ch/solo-leveling-chapter-33/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "32",
+        "url": "https://komikindo.ch/solo-leveling-chapter-32/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "31",
+        "url": "https://komikindo.ch/solo-leveling-chapter-31/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "30",
+        "url": "https://komikindo.ch/solo-leveling-chapter-30/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "29",
+        "url": "https://komikindo.ch/solo-leveling-chapter-29/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "28",
+        "url": "https://komikindo.ch/solo-leveling-chapter-28/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "27",
+        "url": "https://komikindo.ch/solo-leveling-chapter-27/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "26",
+        "url": "https://komikindo.ch/solo-leveling-chapter-26/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "25",
+        "url": "https://komikindo.ch/solo-leveling-chapter-25/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "24",
+        "url": "https://komikindo.ch/solo-leveling-chapter-24/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "23",
+        "url": "https://komikindo.ch/solo-leveling-chapter-23/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "22",
+        "url": "https://komikindo.ch/solo-leveling-chapter-22/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "21",
+        "url": "https://komikindo.ch/solo-leveling-chapter-21/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "20",
+        "url": "https://komikindo.ch/solo-leveling-chapter-20/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "19",
+        "url": "https://komikindo.ch/solo-leveling-chapter-19/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "18",
+        "url": "https://komikindo.ch/solo-leveling-chapter-18/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "17",
+        "url": "https://komikindo.ch/solo-leveling-chapter-17/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "16",
+        "url": "https://komikindo.ch/solo-leveling-chapter-16/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "15",
+        "url": "https://komikindo.ch/solo-leveling-chapter-15/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "14",
+        "url": "https://komikindo.ch/solo-leveling-chapter-14/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "13",
+        "url": "https://komikindo.ch/solo-leveling-chapter-13/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "12",
+        "url": "https://komikindo.ch/solo-leveling-chapter-12/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "11",
+        "url": "https://komikindo.ch/solo-leveling-chapter-11/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "10",
+        "url": "https://komikindo.ch/solo-leveling-chapter-10/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "9",
+        "url": "https://komikindo.ch/solo-leveling-chapter-9/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "8",
+        "url": "https://komikindo.ch/solo-leveling-chapter-8/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "7",
+        "url": "https://komikindo.ch/solo-leveling-chapter-7/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "6",
+        "url": "https://komikindo.ch/solo-leveling-chapter-6/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "5",
+        "url": "https://komikindo.ch/solo-leveling-chapter-5/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "4",
+        "url": "https://komikindo.ch/solo-leveling-chapter-4/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "3",
+        "url": "https://komikindo.ch/solo-leveling-chapter-3/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "2",
+        "url": "https://komikindo.ch/solo-leveling-chapter-2/",
+        "date": "6 tahun yang lalu"
+      },
+      {
+        "chapter": "1",
+        "url": "https://komikindo.ch/solo-leveling-chapter-1/",
+        "date": "6 tahun yang lalu"
+      }
+    ],
+    "related": [
+      {
+        "title": "Revenge of the Bloom Flower",
+        "url": "https://komikindo.ch/komik/revenge-of-the-bloom-flower/",
+        "poster": "https://komikindo.ch/wp-content/uploads/2026/05/Komik-Ephemeral-Bloom-220x319.jpg"
+      },
+      {
+        "title": "War of Corpses",
+        "url": "https://komikindo.ch/komik/war-of-corpses/",
+        "poster": "https://komikindo.ch/wp-content/uploads/2026/01/Komik-The-War-of-Corpses-236x306.png"
+      },
+      {
+        "title": "Voice Phishing Turns Your Life Around",
+        "url": "https://komikindo.ch/komik/975567-voice-phishing-turns-your-life-around/",
+        "poster": "https://komikindo.ch/wp-content/uploads/2024/09/Komik-Voice-Phishing-Turns-Your-Life-Around-220x319.jpg"
+      },
+      {
+        "title": "Gosu",
+        "url": "https://komikindo.ch/komik/340242-gosu/",
+        "poster": "https://komikindo.ch/wp-content/uploads/2020/12/Komik-Gosu-236x308.jpg"
+      }
+    ]
+  }
+}
+
+----------------------------------------
+
+
+===== KOMIK TESTS COMPLETED =====
+
+===== STATS TEST =====
+
+--- Stats ---
+URL: https://aethra-stream.vercel.app/api/stats
+Status: ✅ SUCCESS
+Response:
+{
+  "anime": {
+    "status": "online",
+    "total": 16
+  },
+  "donghua": {
+    "status": "online",
+    "total": 20
+  },
+  "komik": {
+    "status": "online",
+    "total": 82
+  },
+  "movie": {
+    "status": "online",
+    "total": 24
+  },
+  "total": 142,
+  "updatedAt": "2026-08-15T11:30:47.598Z"
+}
+
+----------------------------------------
+
+
+===== STATS TEST COMPLETED =====
+
+================================================
+  TEST COMPLETED AT Sat Aug 15 18:30:45 WIB 2026
+================================================
